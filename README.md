@@ -33,6 +33,7 @@ clinica_veterinaria/
 │   ├── teste_prontuario.py
 │   └── teste_pagamento.py
 ├── main.py                # Menu interativo (entrada manual de dados)
+├── simulacao.py           # Simulação automática do fluxo completo (sem digitação manual)
 └── README.md
 ```
 
@@ -47,7 +48,8 @@ clinica_veterinaria/
 - [x] Controle de Pagamento
 - [x] Menu interativo (entrada manual, cobrindo o fluxo completo)
 
-**Rodar o sistema:** `python main.py` (a partir da raiz do projeto).
+**Rodar o sistema (menu interativo):** `python main.py` (a partir da raiz do projeto).
+**Rodar a simulação automática** (fluxo completo com dados pré-definidos, útil para gravação rápida de vídeo ou testes): `python -m simulacao`.
 
 ## Combinações de estruturas (obrigatório pelo enunciado)
 
